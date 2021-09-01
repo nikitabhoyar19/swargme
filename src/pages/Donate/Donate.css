@@ -1,0 +1,221 @@
+.donation_section {
+    width: 100%;
+    height: 100%;
+}
+
+.donation_section h2 {
+    text-align: left;
+    font-size: 43px;
+    font-weight: 800;
+    line-height: 64px;
+    color: rgba(255, 255, 255, 0.76);
+    margin: 20px 200px 0px;
+}
+
+.donation_criteria {
+    display: flex;
+}
+
+@media screen and (max-width: 500px) {
+    .donation_criteria {
+        flex-wrap: wrap;
+    }
+
+    .donation_pictures_them {
+        flex-basis: 100%!important;
+    }
+
+    .donation_section h2 {
+        font-size: 21px;
+        line-height: 40px;
+        margin: 50px 10px 0px;
+    }
+
+.donation_pictures_them img {
+    width: 40%!important;
+}
+}
+
+.donation_section p {
+    margin: 0px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 500px) {
+    .donation_section p {
+        font-size: 22px;
+    } 
+}
+
+.donation_pictures_them {
+    padding: 40px 0px 20px 40px;
+    flex-basis: 50%;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+
+.donation_pictures_them img {
+    padding-right: 10px;
+    width: 100%;
+    max-width: 340px;
+}
+
+.donation_quantiity_people {
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(12, 3vw);
+    grid-gap: 10px;
+    grid-column-gap: 5px;
+    flex-basis: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 500px) {
+    .donation_quantiity_people {
+        display: none;
+    }
+}
+
+.polygon1 p,
+.polygon2 p,
+.polygon3 p {
+    top: 80px;
+    left: 60px;
+    position: absolute;
+}
+
+.donation_quantiity_people img {
+    width: 100%;
+    max-width: 300px;
+    max-height: 250px;
+    height: 100%;
+    margin: 0px;
+}
+
+.donation_quantiity_people .polygon1 {
+    position: relative;
+    grid-column-start: 5;
+    grid-column-end: 10;
+    grid-row-start: 4;
+    grid-row-end: 8;
+}
+
+.donation_quantiity_people .polygon2 {
+    position: relative;
+    grid-column-start: 2;
+    grid-column-end: 7;
+    grid-row-start: 6;
+    grid-row-end: 13;
+}
+
+.donation_quantiity_people .polygon3 {
+    position: relative;
+    grid-column-start: 8;
+    grid-column-end: 13;
+    grid-row-start: 6;
+    grid-row-end: 13;
+}
+
+
+.donation_payments_help {
+    display: flex;
+}
+
+@media screen and (max-width: 500px) {
+    .donation_payments_help {
+        flex-wrap: wrap;
+    }
+
+    .amount_payment_container .donate_amnt_btn {
+        margin: 50px 0px 40px 0px!important;
+    }
+    
+}
+
+.donation_payments_help .amount_payment_container {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.amount_payment_container .donate_amnt_btn {
+    text-align: left;
+    outline: none;
+    margin: 150px 0px 40px 0px;
+}
+
+.donate_amnt_btn button {
+    background: #E65D10;
+    outline: none;
+    width: 340px;
+    padding: 10px 22px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #ffffff;
+    border-radius: 0px 28px 28px 0px;
+    border: 1px solid #e65d10;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
+}
+
+.amount_payment_container .enter_amnt_donation {
+    text-align: center;
+    margin: 50px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 500px) {
+    .amount_payment_container 
+    .enter_amnt_donation {
+       margin: 10px;
+    }
+
+    .donate_amnt_btn button {
+        width: 320px;
+    }
+}
+
+.amount_payment_container input{
+    background: #FFFFFF;
+    border-radius: 6px;
+    text-align: left;
+    padding: 14px 20px;
+    outline: none;
+    border: 1px solid #FFFFFF;
+}
+
+.amount_payment_container input::placeholder {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.amount_payment_container small {
+    font-size: 26px;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.amount_payment_container .donation_pay_options {
+    margin: 20px 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.donation_pay_options img {
+    width: 10%;
+}
+
+@media screen and (max-width: 500px) {
+    .amount_payment_container .donation_pay_options {
+        margin: 20px 0px;
+    }
+    
+    .donation_pay_options img {
+        width: 15%;
+    }
+}

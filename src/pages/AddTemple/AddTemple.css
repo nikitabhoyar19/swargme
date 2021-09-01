@@ -1,0 +1,113 @@
+.add_temple_form_wrapper {
+    background: rgba(35, 35, 35, 0.66);
+    max-width: 900px;
+    margin: 50px auto;  
+}
+
+.add_temple_form_wrapper .tourbooking_form_section .addtemple_img {
+    width: 100%;
+    margin: 50px 20px;
+}
+
+.add_temple_form_wrapper .tourbooking_form_section img {
+   margin: 50px 10px;
+}
+
+.add_temple_form_wrapper .Templename,
+.add_temple_form_wrapper .Dietyname,
+.add_temple_form_wrapper .AdminPhone,
+.add_temple_form_wrapper .bemail,
+.add_temple_form_wrapper .about_temple,
+.add_temple_form_wrapper .special_request{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.add_temple_form_wrapper .bemail,
+.add_temple_form_wrapper .phone_number,
+.add_temple_form_wrapper .time_slot {
+  width: 50%;
+  padding-right: 15px;
+}
+
+.add_temple_form_wrapper .Templename {
+  width: 95%;
+}
+
+.add_temple_form_wrapper .Dietyname {
+  width: 40%;
+  padding-right: 15px;
+}
+
+.add_temple_form_wrapper .bottomSec_Form {
+   justify-content: space-between;
+}
+
+.add_temple_form_wrapper .bottomSec_Form button{
+    font-weight: 500;
+}
+
+.mobile_add_temple_form_wrapper {
+  display: none;
+}
+
+/* mobile view of this page */
+@media screen and (max-width: 500px) {
+  .add_temple_form_wrapper {
+      /* display: none; */
+      display: none;
+  }
+
+  .mobile_add_temple_form_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+  }
+
+.mobile_add_temple_form_wrapper .Templename,
+.mobile_add_temple_form_wrapper .Dietyname,
+.mobile_add_temple_form_wrapper .AdminPhone,
+.mobile_add_temple_form_wrapper .bemail,
+.mobile_add_temple_form_wrapper .about_temple,
+.mobile_add_temple_form_wrapper .phone_number,
+.mobile_add_temple_form_wrapper .time_slot,
+.mobile_add_temple_form_wrapper .Templename,
+.mobile_add_temple_form_wrapper .special_request{
+ display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.mobile_add_temple_form_wrapper input {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #cfcfcf;
+}
+
+.mobile_add_temple_form_wrapper label {
+  font-size: 1rem;
+  padding-top: 10px;
+  margin-bottom: 0.25em;
+  color: #ffffff;
+  font-weight: 500;
+  text-align: left;
+}
+
+.mobile_add_temple_form_wrapper button {
+  margin: 20px;
+  cursor: pointer;
+  background: #e65d10;
+  outline: none;
+  padding: 12px 22px;
+  font-size: 22px;
+  font-weight: 550;
+  cursor: pointer;
+  color: #ffffff;
+  border: 1px solid #e65d10;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+}

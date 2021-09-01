@@ -1,0 +1,81 @@
+/* background section images */
+.LiveBackground {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin-top: 67px;
+}
+
+/* feature live pooja section */
+.featuredLive_Pooja {
+}
+
+.featuredLive_Pooja .darshan_title,
+.featuredLive_Darshan .darshan_title {
+    margin: 20px 180px 0px 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 400px) {
+    .featuredLive_Pooja .darshan_title,
+    .featuredLive_Darshan .darshan_title {
+        margin: 0px 10px 0px 10px!important;
+        flex-wrap: wrap;
+    }
+}
+
+/* feature live image container */
+.featuredlive_Image_sec {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px 50px;
+}
+
+@media screen and (max-width: 400px) {
+    .featuredlive_Image_sec {
+        flex-wrap: wrap;
+        margin: 0px 0px;
+    }
+
+    .live_img {
+        max-width: 150px;
+    }
+}
+
+/* image */
+.live_img {
+    width: 100%;
+    max-width: 260px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 270px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 20px;
+}
+
+/* black box */
+.img_black_box {
+    width: 100%;
+    max-height: 50px;
+    position: absolute;
+    bottom: 0px;
+    background: rgba(1, 1, 1, 0.65);
+    border-radius: 0px 0px 8px 8px;
+    color: #e7e2e2;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 400px) {
+    .img_black_box {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,293 @@
+.login_sign_banner {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 30px 0px;
+    margin-top: 66px;
+    margin-bottom: 0px;
+}
+
+/* background for sign login section */
+.login_sign_background {
+    margin: 0px 30px;
+    display: flex;
+    background: rgba(56, 36, 36, 0.76);
+}
+
+@media screen and (max-width: 780px) {
+  .login_sign_banner {
+     height: 100%;
+  }
+
+    .login_sign_background {
+      margin: 0px 10px;
+      flex-wrap: wrap;
+    }
+
+    .sign_section {
+      border-right: 0px solid #FFFFFF!important;
+    }
+
+}
+
+/* sign section */
+.sign_section {
+    flex-basis: 50%;
+    justify-content: center;
+    border-right: 1px solid #FFFFFF;
+    height: content;
+    margin: 20px;
+}
+
+.signform-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    border-radius: 10px;
+    align-items: center;
+  }
+
+  @media screen and (max-width: 780px) {
+
+    .signform-wrapper {
+     padding: 0px 0px;
+    }
+
+    .sign_section form {
+      width: 100%!important;
+    }
+  
+
+  }
+  
+ .sign_section form {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+.sign_section h2 {
+    font-size: 33px;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Poppins;
+    width: 100%;
+    line-height: 49px;
+  }
+  
+.sign_section label {
+    font-size: 18px;
+    padding-top: 20px;
+    margin-bottom: 0.25em;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 500;
+    text-align: center;
+  }
+  
+.sign_section input {
+    background: linear-gradient(0deg, #EBEAEA, #EBEAEA), linear-gradient(0deg, #EBEAEA, #EBEAEA), #EBEAEA;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 45.5px;
+    padding: 15px 20px;
+    outline: none;
+    border: 1px solid #EBEAEA;
+  }
+
+  @media screen and (max-width: 400px) {
+    .sign_section input {
+      padding: 20px 20px;
+    }  
+
+    .sign_section .email,
+    .sign_section  .password{
+      width: 180px;
+    }
+  }
+  
+.sign_section input::placeholder {
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #999;
+  }
+    
+  .sign_section .email,
+  .sign_section .password {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .sign_section .email,
+ .sign_section  .password {
+    width: 100%;
+  }
+  
+  .signcreateAccount {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .signcreateAccount button {
+    background: #E55D10;
+    border-radius: 45.5px;
+    color: #fff;
+    width: 30%;
+    margin-top: 1em;
+    padding: 8px 0px;
+    font-size: 1em;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin-bottom: 0.25em;
+    outline: none;
+    border: 1px solid #E55D10;
+  }
+
+  @media screen and (max-width: 780px) {
+    .signcreateAccount {
+      width: 100%;
+    }
+    
+    .signcreateAccount button {
+      width: 50%;
+    }
+  
+  }
+  
+  .signcreateAccount button:hover {
+    color: #dd7031;
+    font-weight: bold;
+    background-color: #fff;
+  }
+
+  /* ** image section ** */
+
+/* image_sectiom */
+.login_sign_background .image_section {
+  flex-basis: 50%;
+  justify-content: center;
+}
+
+@media screen and (max-width: 500px) {
+  .login_sign_background .image_section {
+    flex-basis: 100%;
+}
+
+}
+
+/* image gallery */
+  .image_gallery {
+    display: grid;
+    height: 380px;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(9, 3vw);
+    grid-gap: 10px;
+    margin: 20px 50px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+
+  .item_1 img,
+  .item_2 img,
+  .item_3 img{
+    width: 100%;
+    height: 100%;
+  }
+
+  /* each item */
+  .gallery_item {
+    display: block; 
+  
+  }
+  
+  .item_1 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 8;
+  }
+
+  .item_2 {
+    grid-column-start: 5;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    grid-row-end: 5;
+  }
+
+  .item_3 {
+    grid-column-start: 5;
+    grid-column-end: 8;
+    grid-row-start: 5;
+    grid-row-end: 8;
+  }
+/* mobile view for image section */
+  @media screen and (max-width: 400px) {
+    .image_gallery {
+      height: 100%;
+      grid-template-columns: repeat(10, 1fr);
+      grid-template-rows: repeat(9, 3vw);
+      grid-gap: 10px;
+      margin-bottom: 0px;
+    }
+    .item_1 img,
+    .item_2 img,
+    .item_3 img{
+      width: 100%;
+      height: 100%;
+    }
+
+    .item_1 {
+      grid-column-start: 1;
+      grid-column-end: 6;
+      grid-row-start: 1;
+      grid-row-end: 11;
+    }
+  
+    .item_2 {
+      grid-column-start: 6;
+      grid-column-end: 12;
+      grid-row-start: 1;
+      grid-row-end: 7;
+
+    }
+  
+    .item_3 {
+      grid-column-start: 6;
+      grid-column-end: 12;
+      grid-row-start: 7;
+      grid-row-end: 11;
+    }
+  
+  }
+
+  /* Social icon container for SiinUp */
+  .SignInWithSocial {
+    justify-content: center;
+    padding: 5px;
+  }
+  
+  .SignInWithSocial img {
+    padding: 5px 12px;
+  }
+
+@media screen and (max-width: 780px) {
+  .SignInWithSocial {
+    flex-wrap: nowrap;
+  }
+
+  .SignInWithSocial img {
+    width: 25px;
+  }
+}
+
+
+
+

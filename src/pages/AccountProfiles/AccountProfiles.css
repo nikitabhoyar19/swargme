@@ -1,0 +1,208 @@
+/* banner */
+.Account_Banner {
+    margin-top: 66px;
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* main section */
+.Account_acnt_section {
+    display: flex;
+    flex-basis: 73%;
+    justify-content: center;
+}
+
+/*  */
+.Account_content_section {
+    width: 100%;
+    height: 600px;
+
+    overflow-y: scroll; /* Add vertical scrollbar */
+    margin: 50px 80px 32px 80px;
+    background: rgba(35, 35, 35, 0.66);
+}
+
+@media screen and (max-width: 500px) {
+  .Account_content_section {
+    margin: 50px 0px 32px 0px;
+    width: 340px;
+    overflow-y: visible; 
+    overflow-x: scroll;
+  }
+
+  .order_card_sec {
+    width: 340px;
+    padding: 10px 10px;
+    overflow-x: scroll; 
+  }
+
+  .order_card_sec::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.Account_content_section::-webkit-scrollbar {
+    display: none;
+}
+
+/* profile */
+
+.acnt_profile_section {
+    display: flex;
+  }
+  
+  .acnt_avatar {
+    flex-basis: 30%;
+    padding: 20px;
+  }
+
+  @media screen and (max-width: 500px) {
+    .acnt_avatar {
+      padding: 5px;
+    }
+  }
+  
+  .acnt_avatar img {
+      width: 100%;
+  }
+  
+  .avatar_details {
+    flex-basis: 70%;
+  }
+  
+  .avatar_form_wrapper {
+    padding: 10px;
+  }
+  
+  .avatar_form_wrapper form {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+  
+  .avatar_form_wrapper input {
+    background: #ffffff;
+    border-radius: 6px;
+    height: 50px;
+    outline: none;
+  }
+  
+  .avatar_form_wrapper label {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #ffffff;
+  }
+  
+  .avatar_form_wrapper .firstname,
+  .avatar_form_wrapper .lastname {
+    width: 45%;
+  }
+  
+  /* **** phone veified section **** */
+  .avatar_form_wrapper .phone_number,
+  .avatar_form_wrapper .b_email {
+    width: 100%;
+  }
+  
+  .avatar_form_wrapper .phone_number input {
+    width: 70%;
+  }
+  
+  .avatar_form_wrapper .phone_verified {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .avatar_form_wrapper .phone_verified button {
+    padding: 5px 20px;
+    max-width: 100px;
+    max-height: 32px;
+    background: #e65d10;
+    border: 1px solid #e65d10;
+    outline: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+  }
+  
+  /* *Email Verified Section* */
+  .avatar_form_wrapper .b_email input {
+    width: 78%;
+  }
+  
+  .avatar_form_wrapper .email_verify {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .avatar_form_wrapper .b_email button {
+    padding: 5px 20px;
+    max-width: 100px;
+    max-height: 32px;
+    font-size: 15px;
+    color: #FFFFFF;
+    background: none;
+    border: 2px solid #FFFFFF;
+    outline: none;
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 6px;
+  }
+  
+  /* *Address* */
+  .avatar_form_wrapper .address {
+    width: 80%;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  
+  .avatar_form_wrapper .address button {
+    margin: 5px;
+    padding: 2px;
+    max-width: 100px;
+    max-height: 32px;
+    background: #e65d10;
+    border: 1px solid #e65d10;
+    outline: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+  }
+  
+  /* *butoon container* */
+  .avatar_form_wrapper .Profile_button_container {
+    margin: 10px 0px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .Profile_button_container button {
+    padding: 8px 20px;
+    outline: none;
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+  }
+  
+  .Profile_button_container .cancel_profile {
+    color: #323232;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+  }
+  
+  .Profile_button_container .save_profile {
+    color: #FFFFFF;
+    background: #e65d10;
+    border: 1px solid #e65d10;
+  }
+  

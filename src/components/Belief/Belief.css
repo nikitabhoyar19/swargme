@@ -1,0 +1,46 @@
+.slick-slide div:focus{
+    outline: none!important;
+}
+
+.belief_slidebars {
+    margin-top: -70px;
+}
+  
+.beliefs_card {
+    width: 320px!important;
+    margin: auto;
+    background: linear-gradient(0deg, #F5F5F5, #F5F5F5), #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    padding: 0px;
+}
+
+.orange_box {
+    background-color: #FF7527;
+    height: 65px;
+    margin-bottom: 20px;
+}
+
+.orange_box h2 {
+    margin-top: 0px;
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.17em;
+    color: #000000;
+}
+
+.beliefs_card li {
+    padding: 5px;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 780px) {
+   
+    .beliefs_card {
+    }    
+
+    .orange h2 {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,43 @@
+.Products_background {
+    width: 100%;
+    height: 100%;
+    background: rgba(224, 117, 110, 0.41);
+    display: flex;
+}
+
+@media screen and (max-width: 500px) {
+    .Products_background {
+        flex-direction: column;
+    }
+}
+
+/* fist section of categories */
+.Products_cat_price_section {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 22%;
+    align-items: center;
+}
+
+/* second section of choice photos */
+.Products_rel_choice {
+    width: 100%;
+    flex-basis: 78%;
+}
+
+.product_img_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product_img_container .tour_darshanimg {
+    margin: 20px 15px;
+}
+
+@media screen and (max-width: 500px) {
+    .product_img_container {
+        display: grid;
+        grid-template-columns: (4, auto);
+    }
+}

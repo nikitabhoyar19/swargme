@@ -1,0 +1,46 @@
+@media screen and (max-width: 500px) {
+    .sign_section {
+        flex-basis: 100%;
+        margin: 0px;
+    }
+}
+.phone_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone_section input, 
+.phone_section button{
+  margin: 5px;
+}
+
+.Phone_sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Phone_sec input {
+    margin: 20px;
+}
+
+.otp_back{
+    background: #646362!important;
+    border: 1px solid #646362!important;  
+}
+
+.phone_container button{
+    background: #E55D10;
+    border-radius: 45.5px;
+    color: #fff;
+    width: 100%;
+    max-width: 120px;
+    padding: 10px 10px;
+    font-size: 1em;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    outline: none;
+    border: 1px solid #E55D10;
+}

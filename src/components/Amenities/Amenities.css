@@ -1,0 +1,128 @@
+/* ************************* Amenties Section ********************************** */
+
+.Amenties_section {
+    margin: 20px;
+   }
+   
+   .Amenties_section h2 {
+       color: #000000;
+       font-size: 29px;
+       font-weight: bold;
+       text-align: start;
+       margin-left: 120px;
+   }
+
+   .Amenties_section_small {
+       margin: 10px;
+       flex-wrap: wrap;
+   }
+
+   @media screen and (max-width: 400px) {
+    .Amenties_section_small {
+        width: 41%;
+    } 
+
+    .Amenties_section h2 {
+     margin-left: 10px;
+    } 
+
+}
+
+   
+   /* amenties images container */
+   .Amenties_image_container {
+       display: flex;
+       justify-content: center;
+   }
+
+   @media screen and (max-width: 780px) {
+
+      .Amenties_image_container {
+          flex-wrap: wrap;
+      }
+      
+   }
+   
+   .Amenties_section p {
+       width: 180px;
+       font-size: 18px;
+       font-weight: 600;
+       text-align: center;
+   }
+
+   @media screen and (max-width: 400px ) {
+
+    .Amenties_section p {
+        width: 100%;
+        font-size: 12px;
+        font-weight: 600;
+        text-align: center;
+    }
+ 
+   }
+
+   /* /////////////////////////////////////// */
+
+   /* question portion */
+   .Amenties_ques_send {
+   }
+   
+   /* question container */
+   .Question_container {
+      display: flex;
+      justify-content: center;
+   }
+
+   @media screen and (max-width: 780px) {
+       
+     .Question_container {
+         flex-wrap: wrap;
+     }
+
+    .Question_container .Email input, 
+    .Question_container .name input,
+    .Question_container .Phone input {
+       width: 250px!important;
+       margin: 0px;
+    }
+
+   }
+   /* //////////////////////// */
+   
+   /*  desktop  */
+
+   .Question_container .Email input, 
+   .Question_container .name input,
+   .Question_container .Phone input{
+       width: 80%;
+       font-size: 19px;
+       font-style: 400;
+       color: rgba(0, 0, 0, 0.41);
+   
+       background: #F7F7F7;
+       box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.25);
+       border-radius: 4px;
+       margin: 10px;
+       padding: 13px 15px;
+       outline: none;
+       border: 1px solid #F7F7F7;
+   }
+   
+   .question_send_button {
+       align-items: center;
+   }
+   
+   .question_send_button button{
+       width: 100%;
+       color: #FFFFFF;
+       font-size: 23px;
+       font-weight: 500;
+       margin: 10px 0px;
+       padding: 10px 15px;
+       background: #FF701A;
+       border: #FF701A;
+       outline: none;
+       box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+       cursor: pointer;
+   }
+   

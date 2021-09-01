@@ -1,0 +1,77 @@
+/* search section */
+.SearchPooja_Section {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+@media screen and (max-width: 400px) {
+    .SearchPooja_Section {
+        flex-wrap: wrap;
+    }
+}
+
+.pooja_search {
+    position: relative;
+    margin: 10px 30px;
+}
+
+/* search box */
+.pooja_search input {
+    width: 800px;
+    padding: 10px 5px;
+    font-size: 17px!important;
+    font-weight: 400;
+    font-family: Poppins;
+    color: rgba(0, 0, 0, 0.41);
+    outline: none;
+    border: 1px solid rgba(129, 121, 121, 0.57);
+    background: #FFFFFF;
+    box-shadow: inset 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 400px) {
+    .pooja_search input {
+        width: 300px;
+    }
+
+    .pooja_search_btn {
+        display: none;
+    }
+    
+}
+
+.pooja_search input::placeholder {
+    padding-left: 20px;
+}
+
+.pooja_search i {
+    position: absolute;
+    top: 9px;
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.41);
+}
+
+/* button */
+.pooja_search_btn {
+    align-items: center;
+}
+
+.pooja_search_btn button{
+    width: 100%;
+    font-size: 19px;
+    font-weight: 500;
+    margin: 10px 0px;
+    padding: 10px 15px;
+    cursor: pointer;
+
+    color: #FFFFFF;
+    outline: none;
+    background: #E65D10;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 2px solid #E65D10;
+    border-radius: 10px;
+}

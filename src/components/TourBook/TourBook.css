@@ -1,0 +1,164 @@
+.tourbook {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 400px) {
+    .tourbook {
+        position: relative;
+        display: flex;
+        align-items: center;
+        border: 1px solid green;
+    }    
+
+    .tourbook .tour_darshanimg {
+        display: none;
+        position: absolute;
+        width: 100px!important;
+        height: 100%;
+        z-index: 1000;
+    }
+    
+}
+
+.tourbook .tour_darshanimg {
+    width: 280px;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: 1000;
+}
+
+/* tour details container */
+.tour_details_container {
+    border: 1px solid white;
+    padding: 30px 50px 20px 80px;
+    width: 1100px;
+    margin-left: -70px;
+    background: linear-gradient(180deg, #230000 0%, rgba(88, 0, 0, 0.78) 100%);
+}
+
+@media screen and (max-width: 400px) {
+    /* tour details container */
+  .tour_details_container {
+    padding: 30px 10px 20px 10px;
+    width: 280px;
+    margin-left: 0px;
+}
+
+.tour_details_container p {
+    font-size: 15px!important;
+}
+
+.book_by_time {
+    flex-wrap: wrap;
+}
+
+
+}
+.tour_details_container p {
+    font-size: 22px;
+    font-weight: normal;
+    text-align: left;
+    color: #FFFFFF;
+    font-family: Poppins;
+}
+
+/* booking section */
+.book_by_time {
+    display: flex;
+    align-items: center;
+}
+
+.time_selection, .booking_price_actual, .booking_tour_btn {
+    flex-basis: 33%;
+    align-items: center;
+} 
+
+/* time */
+.book_by_time .time_selection select{
+    margin-left: 0px;
+    padding: 10px 20px;
+    background: #F8F8F8;
+    border: 1px solid #000000;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: rgba(0, 0, 0, 0.46);
+    font-size: 22px;
+    font-weight: normal;
+}
+
+/* price */
+.book_by_time .booking_price_actual {
+   padding: 10px;
+}
+
+.book_by_time .booking_price_actual h2{
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.book_by_time .booking_price_actual span{
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.book_by_time .booking_tour_btn button{
+    background: #E65D10;
+    outline: none;
+    padding: 15px 22px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #FFFFFF;
+    border: 1px solid #E65D10;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 400px) {
+    .time_selection, .booking_price_actual, .booking_tour_btn {
+        flex-basis: 33%;
+        align-items: center;
+    } 
+    
+    /* time */
+    .book_by_time .time_selection select{
+        margin-left: 0px;
+        padding: 10px 8px;
+        font-size: 18px;
+    }
+    
+    /* price */
+    .book_by_time .booking_price_actual {
+       padding: 0px;
+       padding-left: 10px;
+    }
+    
+    .book_by_time .booking_price_actual h2{
+        font-size: 18px;
+    }
+    
+    .book_by_time .booking_price_actual span{
+        font-size: 15px;
+    }
+    
+    .book_by_time .booking_tour_btn button{
+        margin: 0px 70px;
+        padding: 15px 20px;
+        font-size: 20px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

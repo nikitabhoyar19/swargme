@@ -1,0 +1,191 @@
+.tourform_wrapper {
+  background: rgba(35, 35, 35, 0.66);
+  width: 900px;
+  margin: auto;
+}
+
+.tourbooking_form_section {
+  display: flex;
+}
+
+.tourbooking_form_section .tour_darshanimg {
+  width: 100%;
+  flex-basis: 28%;
+}
+
+.tourbooking_form_section .form_wrapper {
+  flex-basis: 70%;
+  padding: 10px;
+}
+
+.tourbooking_form_section form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* /////////////////// */
+
+/* label */
+.tourbooking_form_section label,
+.tourform_wrapper label {
+  font-size: 1rem;
+  padding-top: 10px;
+  margin-bottom: 0.25em;
+  color: #ffffff;
+  font-weight: 500;
+  text-align: left;
+}
+
+.tourbooking_form_section input::placeholder {
+  font-size: 1rem;
+}
+
+/* input */
+.tourbooking_form_section input,
+select,
+textarea {
+  padding: 20px 20px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #cfcfcf;
+}
+
+/* //////////// */
+
+.bemail,
+.firstname,
+.lastname,
+.phone_number,
+.time_slot {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.tourform_wrapper .bemail,
+.tourform_wrapper .phone_number,
+.tourform_wrapper .time_slot {
+  width: 70%;
+  padding-right: 15px;
+}
+
+.tourform_wrapper .firstname,
+.tourform_wrapper .lastname {
+  padding-right: 10px;
+  width: 45%;
+}
+
+/* ////////////////// */
+.tourform_wrapper .code_section {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+/* enter code div */
+.tourbooking_form_section .code {
+  width: 70%;
+}
+
+/* code apply button */
+.tourbooking_form_section .code_apply {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 12px 15px;
+  background: #e65d10;
+  margin-top: 30px;
+}
+
+/* /////////////////////////// */
+
+/* message */
+.tourbooking_form_section span {
+  font-size: 18px;
+  font-weight: 300;
+  padding-top: 9px;
+  font-style: normal;
+  color: #ffffff;
+  text-align: left;
+}
+
+.tourform_wrapper .booking_price_actual h2 {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.tourform_wrapper .booking_price_actual span {
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.tourform_wrapper .booking_tour_btn button {
+  margin: 20px;
+  background: #e65d10;
+  outline: none;
+  padding: 12px 22px;
+  font-size: 25px;
+  font-weight: 550;
+  cursor: pointer;
+  color: #ffffff;
+  border: 1px solid #e65d10;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.tourform_wrapper .bottomSec_Form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+}
+
+/* mobile view */
+@media screen and (max-width: 500px) {
+  .tourform_wrapper {
+    width: 100%;
+  }
+
+  .tourbooking_form_section {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .tourbooking_form_section .tour_darshanimg {
+    flex-basis: 60%!important;
+  }
+
+  .tourbooking_form_section .black_box {
+    padding-top: 0px;
+    margin-top: 144px!important;
+  }
+
+  .tourform_wrapper .firstname,
+  .tourform_wrapper .lastname, 
+  .tourform_wrapper .phone_number,
+  .tourform_wrapper .bemail,
+  .tourform_wrapper .time_slot {
+    width: 100%;
+  }
+
+  .tourform_wrapper .code {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .special_request {
+    display: none!important;
+  }
+
+  .booking_price_actual .span {
+    font-size: 10px!important;
+  }
+
+  .tourform_wrapper .bottomSec_Form {
+    justify-content: center;
+  }
+
+}
+  /* bottom section of the container */

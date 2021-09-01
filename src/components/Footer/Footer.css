@@ -1,0 +1,103 @@
+/* footer section */
+.mandir_footer {
+    display: flex;
+    background-color: rgba(66, 66, 66, 1);
+    padding: 20px 90px;
+    position: relative;
+}
+
+.mandir_footer h2 {
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 57px;
+    letter-spacing: 0.05em;
+}
+
+/* contact */
+.mandir_contact {
+ flex-basis: 35%;
+ text-align: left;
+}
+
+.mandir_contact p, .mandir_important_links p {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    font-family: Raleway;
+    letter-spacing: 0.04em; 
+}
+
+/* popular news */
+.mandir_popular_news {
+    flex-basis: 32%;
+    text-align: left;
+}
+
+.mandir_popular_news p {
+    color: #FF701A;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: Raleway;
+    line-height: 25px;
+    letter-spacing: 0.03em;  
+}
+
+.mandir_popular_news span {
+    color: #969696;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.05em;  
+}
+
+/* important links */
+.mandir_important_links {
+    flex: 1;
+    text-align: left;
+    flex-direction: end;
+    padding: 0px 70px;
+}
+
+.quick_description {
+    display: flex;
+    text-align: left;
+}
+
+.quick_description p {
+    padding-right: 60px;
+}
+
+.get_in_touch {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: #424242;
+    border-radius: 0px;
+    padding: 10px 18px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+}
+
+@media screen and (max-width: 780px) {
+  .mandir_footer {
+      flex-wrap: wrap;
+      padding: 20px 20px;
+  }
+
+  .mandir_contact, .mandir_popular_news {
+      flex-basis: 100%;
+  }
+
+
+  .mandir_important_links {
+    flex: 1;
+    text-align: left;
+    flex-direction: end;
+    padding: 0px 10px;
+}
+}

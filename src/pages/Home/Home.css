@@ -1,0 +1,310 @@
+
+/* ****************** second banner  ********************** */
+.home_banner_second {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    /* position: relative; */
+}
+
+.red_box {
+    margin-top: 0px;
+    height: 77px;
+    background-color: #DA0000;
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: 40px;
+}
+
+.red_box img {
+    margin-bottom: -85px;
+    width: 78px;
+}
+
+/* info cards section */
+.info_cardcontainer {
+    padding: 40px 20px;
+    margin: 15px 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 50px; 
+    grid-column-gap: 20px;
+}
+
+.info_card1 img {
+}
+
+/* info card */
+.info_card1, .first_card {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 400px) {
+    .first_card {
+    }
+
+    .info_card1 {
+        display: none;
+    }
+}
+
+.info_card1 h2, .first_card h2 {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 0px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+
+.info_card1 p, .first_card p {
+    font-size: 15px;
+    margin: 15px 20px;
+    line-height: 22px;
+    text-align: justify;
+    color: #000000;
+}
+
+@media screen and (max-width: 780px) {
+  
+    .home_banner_second {
+        height: 100%;
+    }
+
+    .info_cardcontainer {
+        padding: 10px 5px;
+        margin: 30px 0px;    
+        grid-template-columns: repeat(1, auto);
+    }
+
+}
+
+/* ******************* latest update banner  *********************** */
+
+.latest_update_banner {
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid pink;
+    background-size: cover;
+    height: 100%;
+    /* position: relative; */
+
+}
+
+.latest_update_banner h1 {
+    color: #000000;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: Toko;
+    letter-spacing: 0.09rem;
+}
+
+.temple_update_card {
+    margin: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.update_card {
+    width: 329px;
+    background: linear-gradient(180deg, #FFFFFF 36.31%,
+    rgba(255, 255, 255, 0) 100%), #E0E0E0;
+    
+}
+
+.update_card img {
+    width: 329px;
+}
+
+.update_card h2 {
+    font-size: 20.64px;
+    font-weight: 600;
+    line-height: 31px;
+    text-align: left;
+    color: #000000;
+    font-family: Poppins;
+}
+
+.update_card p {
+    font-size: 16.8873px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #3E3E3E;
+    font-family: Poppins;
+}
+
+.update_card span {
+    font-size: 18.7636px;
+    font-weight: 500;
+    line-height: 31px;
+    text-align: center;
+    color: #3E3E3E;
+    font-family: Poppins;
+}
+
+@media screen and (max-width: 768px) {
+    .latest_update_banner {
+        height: 100%;
+    }
+
+    .temple_update_card {
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }    
+
+    .update_card {
+        margin: 20px;
+    }
+
+}
+
+
+
+/* ********************************* Upcoming Events ************************************** */
+.upcoming_event {
+    /* position: relative; */
+
+}
+
+@media screen and (max-width: 768px) {
+    
+    .upcoming_event_cards {
+        flex-wrap: wrap;
+    }    
+
+    .spiritual_service_card {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+}
+
+/* desktop view */
+.upcoming_event_cards {
+    padding: 20px;
+    margin: 30px 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.upcoming_event h1 {
+    color: #000000;
+    font-size: 45px;
+    font-weight: 500;
+    font-family: Teko;
+    margin-bottom: 5px;
+    letter-spacing: 0.09rem;
+}
+
+.spiritual_service_card {
+   width: 315px;
+}
+
+.upcoming_event_cards img {
+    width: 315px;
+    height: 300px;
+}
+
+.spiritual_service_card small {
+    font-family: Mulish;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 600;
+    color: #525252;
+}
+
+.spiritual_service_card h2 {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.10em;
+    margin-bottom: 0px;
+}
+
+.spiritual_service_card p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #444040;
+    text-align: justify;
+}
+
+
+/* *************************** all event nature ****************************** */
+
+.all_event_nature {
+    /* position: relative; */
+
+}
+
+.all_event_nature .event_pictures img{
+   padding: 10px;
+}
+
+
+@media screen and (max-width: 780px) { 
+    .event_pictures {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .event_pictures img {
+        width: 90%;
+        padding: 5px;
+    }
+}
+
+/* ************************* temple location map **************************** */
+
+.mappp {
+    /* position: relative; */
+}
+
+.temples_map_section {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin: 30px 30px;
+}
+
+@media screen and (max-width: 780px) {
+    .mappp {
+        padding: 0px;
+    }
+
+    .mappp h1 {
+        font-size: 40px;
+        
+    }
+
+    .temples_map_section {
+        margin: 30px 0px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

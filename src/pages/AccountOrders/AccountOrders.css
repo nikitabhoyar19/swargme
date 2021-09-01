@@ -1,0 +1,85 @@
+.account_order_section {
+    width: 100%;
+}
+
+.acnt_order_divide {
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    /* border-bottom: 1px solid #FFFFFF; */
+}
+
+
+.acnt_order_divide a {
+    font-size: 28px;
+    font-weight: 500;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* card */
+.order_card_sec {
+    padding: 15px 20px;
+    margin: 10px 80px 10px 50px;
+    display: flex;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+@media screen and (max-width: 500px) {
+    .order_card_sec {
+        margin: 10px 10px 10px 10px;
+    }
+}
+
+.order_description_section {
+    padding: 0px 0px 0px 40px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.order_description_section h2 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #453A3A;
+}
+
+.order_description_section small {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* buttons container of cards */
+.order_description_section .order_buttons {
+    display: flex;
+    /* justify-content: space-around; */
+    margin-top: 10px;
+}
+
+.order_buttons button {
+    padding: 8px 20px;
+    margin: 0px 10px;
+    outline: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;  
+}
+
+.order_buttons .invoice_order {
+    background: #E65D10;
+    border: 1px solid #E65D10;
+}
+
+.order_buttons .cancel_order {
+    background: #C5000C;
+    border: 1px solid #C5000C;
+}
+
+.order_buttons .view_order {
+    background: #898989;
+    border: 1px solid #898989;
+}

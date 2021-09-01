@@ -1,0 +1,22 @@
+.Products_option_check {
+    background: #FFFFFF;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 254px;
+    margin: 20px;
+}
+
+.Products_option_check label {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 45px;
+    align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+  .Products_option_check {
+      display: none;
+  }
+}

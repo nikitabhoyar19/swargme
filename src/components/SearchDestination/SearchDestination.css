@@ -1,0 +1,103 @@
+.tour_search_section {
+    display: flex;
+    margin: 20px 180px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 780px) {
+    .tour_search_section {
+        margin: 0px 0px;
+        flex-wrap: wrap;
+    }
+
+    .tour_search_section .location input {
+        width: 280px;
+    }
+
+    .temple_search input {
+        font-size: 17px!important;
+        font-weight: 400;
+        font-family: Poppins;
+        color: rgba(0, 0, 0, 0.41);
+        outline: none;
+    }
+    
+
+    .tour_search_section .date input {
+        width: 80px!important;
+        padding: 15px 0px 15px 30px!important;
+    }
+    
+    .tour_search_section .traveller input {
+        width: 125px!important;
+        padding: 15px 0px 15px 25px!important;
+    }
+}
+
+.tour_search_section .location i, .date i, .traveller i {
+    position: absolute;
+    top: 25px;
+    padding: 5px;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.41);
+}
+
+.location, .date, .traveller {
+    position: relative;
+}
+
+.temple_search input {
+    font-size: 19px;
+    font-weight: 400;
+    font-family: Poppins;
+    color: rgba(0, 0, 0, 0.41);
+    outline: none;
+}
+
+.location input{
+    width: 450px;
+    border: 1px solid #FFFFFF;
+    background: #FFFFFF;
+    border: 1px solid rgba(129, 121, 121, 0.57);
+    box-sizing: border-box;
+    box-shadow: inset 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 15px 2px 15px 30px;
+    outline: none;
+    justify-content: start;
+    text-align: start;
+}
+
+.date input {
+    width: 157px;
+    border: 1px solid #FFFFFF;
+    background: #FFFFFF;
+    border: 1px solid rgba(129, 121, 121, 0.57);
+    box-sizing: border-box;
+    box-shadow: inset 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 15px 0px 15px 40px;
+    outline: none;
+    justify-content: start;
+    text-align: start;
+}
+
+.traveller input {
+    width: 174px;
+    border: 1px solid #FFFFFF;
+    background: #FFFFFF;
+    border: 1px solid rgba(129, 121, 121, 0.57);
+    box-sizing: border-box;
+    box-shadow: inset 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 15px 0px 15px 40px;
+    outline: none;
+    justify-content: start;
+    text-align: start;
+}
+
+@media screen and (max-width: 500px) {
+    .temple_search_btn {
+        display: none;
+    }
+}

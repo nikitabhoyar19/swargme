@@ -1,0 +1,83 @@
+.Account_content_section p {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+
+.Account_content_section hr {
+    margin: 0px 10px 10px 10px;
+}
+
+.acnt_notification_section {
+    max-height: 400px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll; /* Add vertical scrollbar */
+}
+
+.acnt_notification_section::-webkit-scrollbar {
+    display: none;
+}
+
+.dismiss_all_button {
+    margin: 20px;
+    padding: 5px 15px;
+    max-width: 185px;
+    max-height: 40px;  
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    outline: none;
+    border-radius: 6px;
+    background: rgba(210, 25, 0, 0.82);
+    border: 1px solid rgba(210, 25, 0, 0.82);
+}
+
+.acnt_notification_section .note_bar {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 6px;
+}
+
+.acnt_notification_section .note_bar p {
+    font-size: 15px!important;
+}
+
+@media screen and (max-width: 500px) {
+    .acnt_notification_section .note_bar {
+        flex-direction: column;
+    }    
+
+}
+
+.acnt_notification_section .note_bar p {
+    font-size: 18px;
+    margin: 0px 10px;
+    font-weight: normal;
+    line-height: 27px;
+    text-align: left;
+    color: #000000;
+}
+
+.acnt_notification_section .note_bar button {
+    margin: 0px 10px;
+    max-width: 100px;
+    max-height: 40px;  
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 500;
+    outline: none;
+    border-radius: 6px;
+    background: rgba(210, 25, 0, 0.82);
+    border: 1px solid rgba(210, 25, 0, 0.82);
+}
+
+.note_bar .dismiss_note {
+
+}
